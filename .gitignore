@@ -22,6 +22,9 @@ DerivedData/
 # CocoaPods
 Pods/
 
+# Firebase config (add your own — see Reminder/README.md)
+GoogleService-Info.plist
+
 # Fastlane / misc
 *.mode1v3
 *.mode2v3

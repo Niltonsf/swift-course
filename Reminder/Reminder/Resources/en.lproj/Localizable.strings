@@ -1,0 +1,15 @@
+//  Localizable.strings for Reminder (Created by Nilton Schumacher Filho on 19/01/26)
+
+/* MARK: - LOGIN Screen */
+"login.title" = "Enter to see your receits";
+"login.email.title" = "E-mail";
+"login.email.placeholder" = "email@example.com";
+"login.password.title" = "Password";
+"login.password.placeholder" = "password";
+"login.button.title" = "Login";
+
+/* MARK: - HOME Screen */
+
+/* MARK: - RECEIPTS Screen */
+
+/* MARK: - NEWRECEPTS Screen */
