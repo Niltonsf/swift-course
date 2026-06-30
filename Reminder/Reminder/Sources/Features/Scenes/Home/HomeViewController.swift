@@ -37,6 +37,6 @@ class HomeViewController: UIViewController {
     }
     
     private func buildHierarchy() {
-        setupContentViewToBounds(contentView: contentView)
+//        setupContentViewToBounds(contentView: contentView)
     }
 }

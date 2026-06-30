@@ -9,6 +9,8 @@
 "login.button.title" = "Login";
 
 /* MARK: - HOME Screen */
+"home.welcome" = "Welcome";
+"home.reviewButton.title" = "Review";
 
 /* MARK: - RECEIPTS Screen */
 
