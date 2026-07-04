@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "me.jpeg",
+      "filename" : "log-out.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "me 1.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "me 2.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -28,14 +28,6 @@ class LoginBottomSheetView: UIView {
         loginButton.layer.cornerRadius = loginButton.bounds.height / 2
         loginButton.clipsToBounds = true
     }
-    
-    private let handleArea: UIView = {
-        let view = UIView()
-        view.backgroundColor = .lightGray
-        view.layer.cornerRadius = Metrics.space4
-        view.translatesAutoresizingMaskIntoConstraints = false
-        return view
-    }()
         
     private let titleLabel: UILabel = {
         let label = UILabel()
@@ -142,8 +134,7 @@ class LoginBottomSheetView: UIView {
         
         passwordTextField.rightView = passwordRightView
         passwordTextField.rightViewMode = .always
-        
-        self.addSubview(handleArea)
+                
         self.addSubview(titleLabel)
         self.addSubview(emailTextFieldLabel)
         self.addSubview(emailTextField)
@@ -156,12 +147,7 @@ class LoginBottomSheetView: UIView {
     
     private func setupConstrains() {
         NSLayoutConstraint.activate([
-            handleArea.topAnchor.constraint(equalTo: self.topAnchor, constant: Metrics.space12),
-            handleArea.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            handleArea.widthAnchor.constraint(equalToConstant: 40),
-            handleArea.heightAnchor.constraint(equalToConstant: 6),
-            
-            titleLabel.topAnchor.constraint(equalTo: handleArea.bottomAnchor, constant: Metrics.space24),
+            titleLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: Metrics.space24),
             titleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: Metrics.space24),
                         
             emailTextFieldLabel.topAnchor

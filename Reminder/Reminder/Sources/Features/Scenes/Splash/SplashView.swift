@@ -17,15 +17,6 @@ class SplashView: UIView {
         return image
     }()
     
-//    private let titleLogoLabel: UILabel = {
-//        let title = UILabel()
-//        title.text = "Remind"
-//        title.textColor = .white
-//        title.font = UIFont.boldSystemFont(ofSize: 32)
-//        title.translatesAutoresizingMaskIntoConstraints = false
-//        return title
-//    }()
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()

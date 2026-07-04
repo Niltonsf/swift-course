@@ -27,7 +27,7 @@ class SplashViewController: UIViewController {
         
         setup()
         startBreathingAnimation()
-        setupGesture()
+//        setupGesture()
     }
     
     private func decideNavigationFlow() {
@@ -50,10 +50,10 @@ class SplashViewController: UIViewController {
         setupContentViewToBounds(contentView: contentView)
     }
     
-    private func setupGesture () {
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(showLoginBottomSheet))
-        self.view.addGestureRecognizer(tapGesture)
-    }
+//    private func setupGesture () {
+//        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(showLoginBottomSheet))
+//        self.view.addGestureRecognizer(tapGesture)
+//    }
     
     @objc
     private func showLoginBottomSheet() {

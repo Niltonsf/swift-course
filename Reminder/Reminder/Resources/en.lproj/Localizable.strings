@@ -11,6 +11,7 @@
 /* MARK: - HOME Screen */
 "home.welcome" = "Welcome";
 "home.reviewButton.title" = "Review";
+"home.username.placeholder" = "Insert your name";
 
 /* MARK: - RECEIPTS Screen */
 
