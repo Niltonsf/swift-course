@@ -10,6 +10,7 @@ import UIKit
 
 public struct Metrics {
     static let space48: CGFloat = 48
+    static let space40: CGFloat = 40
     static let space32: CGFloat = 32
     static let space24: CGFloat = 24
     static let space20: CGFloat = 20
@@ -20,4 +21,5 @@ public struct Metrics {
     static let space4: CGFloat = 4
     static let buttonSize: CGFloat = 56
     static let inputSize: CGFloat = 56
+    static let inputInnerHorizontalPadding: CGFloat = 16
 }

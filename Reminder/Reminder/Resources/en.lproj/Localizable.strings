@@ -14,5 +14,6 @@
 "home.username.placeholder" = "Insert your name";
 
 /* MARK: - RECEIPTS Screen */
+"receipts.addButton.title" = "Add";
 
 /* MARK: - NEWRECEPTS Screen */

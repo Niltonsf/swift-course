@@ -8,6 +8,8 @@
 import UIKit
 
 class HomeViewCard: UIView {
+    var tapAction: (() -> Void)?
+    
     init(icon: UIImage?, title: String, description: String){
         super.init(frame: .zero)
         
@@ -15,6 +17,7 @@ class HomeViewCard: UIView {
         cardTitle.text = title
         cardDescription.text = description
         
+        setupGesture()
         setup()
     }
     
@@ -106,5 +109,15 @@ class HomeViewCard: UIView {
             cardDescription.trailingAnchor.constraint(equalTo: self.layoutMarginsGuide.trailingAnchor),
             cardDescription.bottomAnchor.constraint(equalTo: self.layoutMarginsGuide.bottomAnchor, constant: Metrics.space4),
         ])
+    }
+    
+    private func setupGesture() {
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap))
+        self.addGestureRecognizer(tapGesture)
+        self.isUserInteractionEnabled = true
+    }
+    
+    @objc private func didTap() {
+        tapAction?()
     }
 }
